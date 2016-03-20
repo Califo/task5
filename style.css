@@ -1,0 +1,162 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    background-color: #dedede;
+    overflow: auto;
+    min-width: 880px;
+}
+nav {
+    background-color: #333;
+    width: 100%;
+    overflow: auto;
+}
+nav img{
+    float: left;
+    margin: 0.7em 2em 1em 1em;
+}
+nav ul{
+    float: right;
+    margin: 1.5em 1em 1em 1em;
+    /*为什么是无效的*/
+    list-style-type: disc;
+}
+nav li{
+    float: left;
+    margin-right: 2em;
+}
+nav li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+}
+nav li a:hover,a.active{
+    color: darkgray;
+}
+div.left{
+    margin-right: 390px;
+	min-width: 350px;
+}
+div.right{
+    float: right;
+}/******/
+article{
+    background-color: #fff;
+    margin: 1em;
+    padding: 1.1em;
+    box-shadow: 3px 3px #acafb9;
+}
+article h1,h3,h5{
+    margin: 1em 0em;
+}
+article h3{
+    color: #3e3c3c;
+}
+article h5{
+    color: #454141
+}
+article p{
+    text-indent: 2em;
+    line-height: 1.6em;
+    margin: 1em 0em 1em 0em;
+}
+article p a{
+    color: #1d00ff;
+}
+article p a:hover{
+    color: red;
+}
+article ul{
+    list-style-type: none;
+    line-height: 1.5em;
+}
+div.imgList{
+    display: inline-block;
+    height: 150px;
+    width: 130px;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+    margin: 0.5em
+}
+div.imgList img{
+    height: 100px;
+    width: 100px;
+}
+div.imgList p{
+    font-size: 13px;
+    line-height: 1em;
+    text-align: center;
+    text-indent: 0em;
+}
+article ol{
+    line-height: 1.5em;
+}
+article table{
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-indent: 0.4em;
+    text-align: left;
+}
+article table th,td{
+    border: 1px solid #cbcbcb;
+    line-height: 1.5em;
+}
+article table th{
+    background-color: #3e3c3a;
+    color: white;
+}
+article table tr:last-child{
+    font-weight: bold;
+    background-color: rgb(212, 212, 212);
+}
+aside{
+    background-color: #fff;
+    padding: 1.1em;
+    box-shadow: 3px 3px #acafb9;
+    margin-right: 1em;
+    width: 340px;
+}
+aside form div{
+    line-height: 2.5em;
+    font-size: 13px;
+}
+aside form div label{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    padding-right: 1em;
+    vertical-align: top;
+}
+aside form div.tip{
+    margin-left: 45%;
+    color: #aaaaaa;
+}
+aside form div textarea{
+    height: 100px;
+    width: 50%;
+    font-size: 15px;
+}
+aside form #submit{
+    width: 100%;
+    background-color: #263ad4;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+footer{
+    text-align: center;
+    height: 70px;
+    background-color: black;
+}
+footer p{
+    color: white;
+    padding-top: 20px;
+    font-size: 12px;
+}
